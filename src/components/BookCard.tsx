@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 interface BookCardProps{
-    id: string,
+    id: number,
     title: string,
     image: string,
     price: number,
